@@ -1,0 +1,5 @@
+baseURL = 'https://mw5638.github.io/docs/'
+languageCode = 'en-gb'
+title = 'Entroware Documentation'
+#publishDir = 'docs'
+enableRobotsTXT = true
