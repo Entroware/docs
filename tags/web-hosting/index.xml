@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Hosting on Entroware Documentation</title>
+    <link>https://mw5638.github.io/docs/tags/web-hosting/</link>
+    <description>Recent content in Web Hosting on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/web-hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up a LEMP Stack on Ubuntu</title>
+      <link>https://mw5638.github.io/docs/posts/ubuntu-lemp-stack-setup/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/ubuntu-lemp-stack-setup/</guid>
+      <description>
+        
+          
+            This guide provides step-by-step instructions for setting up a LEMP stack on Ubuntu, including installing Nginx, MySQL, and PHP, along with configuring the necessary server blocks and PHP settings.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

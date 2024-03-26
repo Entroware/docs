@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steam on Entroware Documentation</title>
+    <link>https://mw5638.github.io/docs/tags/steam/</link>
+    <description>Recent content in Steam on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/steam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Steam on Ubuntu</title>
+      <link>https://mw5638.github.io/docs/posts/install-steam-ubuntu/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/install-steam-ubuntu/</guid>
+      <description>
+        
+          
+            In this tutorial we will show you how to install Steam on Ubuntu using both the Software Store and using the terminal.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

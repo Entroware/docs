@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Entroware Documentation</title>
+    <link>https://mw5638.github.io/docs/tags/linux/</link>
+    <description>Recent content in Linux on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash Programming Basics</title>
+      <link>https://mw5638.github.io/docs/posts/bash-basics/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/bash-basics/</guid>
+      <description>
+        
+          
+            This article provides an overview of Bash scripting basics, covering essential concepts and commands to get started with writing scripts in the Bash shell.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Configuring Network Settings in Ubuntu Server: Basics and Troubleshooting</title>
+      <link>https://mw5638.github.io/docs/posts/ubuntu-server-network-configuration/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/ubuntu-server-network-configuration/</guid>
+      <description>
+        
+          
+            This article provides a guide to configuring network settings in Ubuntu Server, covering basic configuration tasks such as setting up IP addresses, DNS, and network interfaces, as well as troubleshooting steps for resolving common networking problems.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Linux Command Line Cheat Sheet</title>
+      <link>https://mw5638.github.io/docs/posts/linux-cli-cheat-sheet/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-cli-cheat-sheet/</guid>
+      <description>
+        
+          
+            This cheat sheet provides a quick reference for essential Linux command line commands, covering basic operations for file management, navigation, system administration, and more.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managing Scheduled Tasks with Systemd Timers in Linux</title>
+      <link>https://mw5638.github.io/docs/posts/linux-systemd-timers/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-systemd-timers/</guid>
+      <description>
+        
+          
+            This guide provides an in-depth exploration of systemd timers, offering detailed insights into their syntax, creation, management, and troubleshooting processes, empowering users to optimize task scheduling in Linux environments.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managing Users and Groups in Linux</title>
+      <link>https://mw5638.github.io/docs/posts/linux-user-group-management/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-user-group-management/</guid>
+      <description>
+        
+          
+            This guide provides an overview of user and group management in Linux, covering user and group creation, modification, and deletion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Linux Command Line For Beginners</title>
+      <link>https://mw5638.github.io/docs/posts/beginner-linux-command-line/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/beginner-linux-command-line/</guid>
+      <description>
+        
+          
+            This article provides a comprehensive introduction to the Linux command line interface (CLI) for beginners, covering essential commands and concepts to navigate and manipulate files and directories.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Understanding Linux File Permissions and Numeric Representation</title>
+      <link>https://mw5638.github.io/docs/posts/linux-file-permissions/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-file-permissions/</guid>
+      <description>
+        
+          
+            This article simplifies Linux file permissions by explaining the symbolic representation and numeric representation, illustrating how numeric values correlate with read, write, and execute permissions for users, groups, and others.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Understanding the Linux Filesystem Hierarchy</title>
+      <link>https://mw5638.github.io/docs/posts/linux-filesystem-hierarchy/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-filesystem-hierarchy/</guid>
+      <description>
+        
+          
+            This article explains the Linux Filesystem Hierarchy Standard (FHS) which defines the structure and organisation of directories in Linux systems, providing insights into the purpose of each directory.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using Cron in Linux: Scheduling Tasks (deprecated)</title>
+      <link>https://mw5638.github.io/docs/posts/linux-cron-scheduling-tasks/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-cron-scheduling-tasks/</guid>
+      <description>
+        
+          
+            This article provides a comprehensive guide to using cron, the time-based job scheduler in Linux, covering basic cron syntax, scheduling tasks, managing cron jobs, and troubleshooting common issues.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

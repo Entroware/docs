@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Numeric Representation on Entroware Documentation</title>
+    <link>https://mw5638.github.io/docs/tags/numeric-representation/</link>
+    <description>Recent content in Numeric Representation on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/numeric-representation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Linux File Permissions and Numeric Representation</title>
+      <link>https://mw5638.github.io/docs/posts/linux-file-permissions/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-file-permissions/</guid>
+      <description>
+        
+          
+            This article simplifies Linux file permissions by explaining the symbolic representation and numeric representation, illustrating how numeric values correlate with read, write, and execute permissions for users, groups, and others.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

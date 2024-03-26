@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snap on Entroware Documentation</title>
+    <link>https://mw5638.github.io/docs/tags/snap/</link>
+    <description>Recent content in Snap on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/snap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu Package Management</title>
+      <link>https://mw5638.github.io/docs/posts/ubuntu-package-management/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/ubuntu-package-management/</guid>
+      <description>
+        
+          
+            This article provides a comprehensive guide to package management in Ubuntu, covering the use of apt for installing, updating, and removing packages, as well as using dpkg for managing individual .deb packages.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

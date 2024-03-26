@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cron on Entroware Documentation</title>
+    <link>https://mw5638.github.io/docs/tags/cron/</link>
+    <description>Recent content in Cron on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/cron/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Cron in Linux: Scheduling Tasks (deprecated)</title>
+      <link>https://mw5638.github.io/docs/posts/linux-cron-scheduling-tasks/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-cron-scheduling-tasks/</guid>
+      <description>
+        
+          
+            This article provides a comprehensive guide to using cron, the time-based job scheduler in Linux, covering basic cron syntax, scheduling tasks, managing cron jobs, and troubleshooting common issues.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

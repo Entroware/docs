@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Entroware Documentation</title>
+    <link>https://mw5638.github.io/docs/posts/</link>
+    <description>Recent content in Posts on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Steam on Ubuntu</title>
+      <link>https://mw5638.github.io/docs/posts/install-steam-ubuntu/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/install-steam-ubuntu/</guid>
+      <description>
+        
+          
+            In this tutorial we will show you how to install Steam on Ubuntu using both the Software Store and using the terminal.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bash Programming Basics</title>
+      <link>https://mw5638.github.io/docs/posts/bash-basics/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/bash-basics/</guid>
+      <description>
+        
+          
+            This article provides an overview of Bash scripting basics, covering essential concepts and commands to get started with writing scripts in the Bash shell.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Configuring Network Settings in Ubuntu Server: Basics and Troubleshooting</title>
+      <link>https://mw5638.github.io/docs/posts/ubuntu-server-network-configuration/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/ubuntu-server-network-configuration/</guid>
+      <description>
+        
+          
+            This article provides a guide to configuring network settings in Ubuntu Server, covering basic configuration tasks such as setting up IP addresses, DNS, and network interfaces, as well as troubleshooting steps for resolving common networking problems.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Linux Command Line Cheat Sheet</title>
+      <link>https://mw5638.github.io/docs/posts/linux-cli-cheat-sheet/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-cli-cheat-sheet/</guid>
+      <description>
+        
+          
+            This cheat sheet provides a quick reference for essential Linux command line commands, covering basic operations for file management, navigation, system administration, and more.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managing Scheduled Tasks with Systemd Timers in Linux</title>
+      <link>https://mw5638.github.io/docs/posts/linux-systemd-timers/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-systemd-timers/</guid>
+      <description>
+        
+          
+            This guide provides an in-depth exploration of systemd timers, offering detailed insights into their syntax, creation, management, and troubleshooting processes, empowering users to optimize task scheduling in Linux environments.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managing Users and Groups in Linux</title>
+      <link>https://mw5638.github.io/docs/posts/linux-user-group-management/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-user-group-management/</guid>
+      <description>
+        
+          
+            This guide provides an overview of user and group management in Linux, covering user and group creation, modification, and deletion.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Setting Up a LEMP Stack on Ubuntu</title>
+      <link>https://mw5638.github.io/docs/posts/ubuntu-lemp-stack-setup/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/ubuntu-lemp-stack-setup/</guid>
+      <description>
+        
+          
+            This guide provides step-by-step instructions for setting up a LEMP stack on Ubuntu, including installing Nginx, MySQL, and PHP, along with configuring the necessary server blocks and PHP settings.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Setting Up LUKS Encryption on Ubuntu</title>
+      <link>https://mw5638.github.io/docs/posts/ubuntu-luks-encryption-setup/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/ubuntu-luks-encryption-setup/</guid>
+      <description>
+        
+          
+            This guide provides step-by-step instructions for setting up LUKS (Linux Unified Key Setup) encryption on Ubuntu, ensuring that your data remains secure and protected against unauthorised access.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Setting Up SSH and Using SSH Keys on Ubuntu</title>
+      <link>https://mw5638.github.io/docs/posts/ubuntu-ssh-keys-setup/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/ubuntu-ssh-keys-setup/</guid>
+      <description>
+        
+          
+            This guide provides step-by-step instructions for setting up SSH (Secure Shell) and configuring SSH keys for secure authentication on Ubuntu, enhancing security and convenience for remote access.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The Linux Command Line For Beginners</title>
+      <link>https://mw5638.github.io/docs/posts/beginner-linux-command-line/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/beginner-linux-command-line/</guid>
+      <description>
+        
+          
+            This article provides a comprehensive introduction to the Linux command line interface (CLI) for beginners, covering essential commands and concepts to navigate and manipulate files and directories.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Package Management</title>
+      <link>https://mw5638.github.io/docs/posts/ubuntu-package-management/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/ubuntu-package-management/</guid>
+      <description>
+        
+          
+            This article provides a comprehensive guide to package management in Ubuntu, covering the use of apt for installing, updating, and removing packages, as well as using dpkg for managing individual .deb packages.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Understanding Linux File Permissions and Numeric Representation</title>
+      <link>https://mw5638.github.io/docs/posts/linux-file-permissions/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-file-permissions/</guid>
+      <description>
+        
+          
+            This article simplifies Linux file permissions by explaining the symbolic representation and numeric representation, illustrating how numeric values correlate with read, write, and execute permissions for users, groups, and others.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Understanding the Linux Filesystem Hierarchy</title>
+      <link>https://mw5638.github.io/docs/posts/linux-filesystem-hierarchy/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-filesystem-hierarchy/</guid>
+      <description>
+        
+          
+            This article explains the Linux Filesystem Hierarchy Standard (FHS) which defines the structure and organisation of directories in Linux systems, providing insights into the purpose of each directory.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Using Cron in Linux: Scheduling Tasks (deprecated)</title>
+      <link>https://mw5638.github.io/docs/posts/linux-cron-scheduling-tasks/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/linux-cron-scheduling-tasks/</guid>
+      <description>
+        
+          
+            This article provides a comprehensive guide to using cron, the time-based job scheduler in Linux, covering basic cron syntax, scheduling tasks, managing cron jobs, and troubleshooting common issues.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Create an Ubuntu installation USB on Ubuntu</title>
+      <link>https://mw5638.github.io/docs/posts/create-ubuntu-usb/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mw5638.github.io/docs/posts/create-ubuntu-usb/</guid>
+      <description>
+        
+          
+            In this step-by-step tutorial, we will guide you through the process of creating your very own Ubuntu installation USB. Whether you&#39;re a seasoned Linux user or just starting out with open-source operating systems, having an Ubuntu installation USB on hand can be incredibly useful for troubleshooting and reinstalling Ubuntu.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
