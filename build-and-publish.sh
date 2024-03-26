@@ -19,7 +19,7 @@ hugo
 echo -e "> ${GREEN}Publishing to gh-pages${NC}"
 cd public
 echo "*.css.map" >> .gitignore # prevent dev path names being published
-git rm -rfq --cached . # unlink all removed files
+git rm -rfq --cached . || true # unlink all found removed files
 git add --all
 git commit -m "Build $(date +%s)"
 git push origin gh-pages
