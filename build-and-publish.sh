@@ -18,6 +18,7 @@ hugo
 
 echo -e "> ${GREEN}Publishing to gh-pages${NC}"
 cd public
+echo "docs.entroware.com" >> CNAME
 echo "*.css.map" >> .gitignore # prevent dev path names being published
 git rm -rfq --cached . || true # unlink all found removed files
 git add --all
