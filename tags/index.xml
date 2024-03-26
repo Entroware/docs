@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Entroware Documentation</title>
-    <link>https://mw5638.github.io/docs/tags/</link>
+    <link>https://entroware.github.io/tags/</link>
     <description>Recent content in Tags on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://entroware.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on Entroware Documentation</title>
-    <link>https://mw5638.github.io/docs/tags/ubuntu/</link>
+    <link>https://entroware.github.io/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://entroware.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Steam on Ubuntu</title>
-      <link>https://mw5638.github.io/docs/posts/install-steam-ubuntu/</link>
+      <link>https://entroware.github.io/posts/install-steam-ubuntu/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mw5638.github.io/docs/posts/install-steam-ubuntu/</guid>
+      <guid>https://entroware.github.io/posts/install-steam-ubuntu/</guid>
       <description>
         
           
@@ -25,10 +25,10 @@
     
     <item>
       <title>Setting Up a LEMP Stack on Ubuntu</title>
-      <link>https://mw5638.github.io/docs/posts/ubuntu-lemp-stack-setup/</link>
+      <link>https://entroware.github.io/posts/ubuntu-lemp-stack-setup/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mw5638.github.io/docs/posts/ubuntu-lemp-stack-setup/</guid>
+      <guid>https://entroware.github.io/posts/ubuntu-lemp-stack-setup/</guid>
       <description>
         
           
@@ -41,10 +41,10 @@
     
     <item>
       <title>Setting Up LUKS Encryption on Ubuntu</title>
-      <link>https://mw5638.github.io/docs/posts/ubuntu-luks-encryption-setup/</link>
+      <link>https://entroware.github.io/posts/ubuntu-luks-encryption-setup/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mw5638.github.io/docs/posts/ubuntu-luks-encryption-setup/</guid>
+      <guid>https://entroware.github.io/posts/ubuntu-luks-encryption-setup/</guid>
       <description>
         
           
@@ -57,10 +57,10 @@
     
     <item>
       <title>Setting Up SSH and Using SSH Keys on Ubuntu</title>
-      <link>https://mw5638.github.io/docs/posts/ubuntu-ssh-keys-setup/</link>
+      <link>https://entroware.github.io/posts/ubuntu-ssh-keys-setup/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mw5638.github.io/docs/posts/ubuntu-ssh-keys-setup/</guid>
+      <guid>https://entroware.github.io/posts/ubuntu-ssh-keys-setup/</guid>
       <description>
         
           
@@ -73,10 +73,10 @@
     
     <item>
       <title>Ubuntu Package Management</title>
-      <link>https://mw5638.github.io/docs/posts/ubuntu-package-management/</link>
+      <link>https://entroware.github.io/posts/ubuntu-package-management/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mw5638.github.io/docs/posts/ubuntu-package-management/</guid>
+      <guid>https://entroware.github.io/posts/ubuntu-package-management/</guid>
       <description>
         
           
@@ -89,10 +89,10 @@
     
     <item>
       <title>Create an Ubuntu installation USB on Ubuntu</title>
-      <link>https://mw5638.github.io/docs/posts/create-ubuntu-usb/</link>
+      <link>https://entroware.github.io/posts/create-ubuntu-usb/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mw5638.github.io/docs/posts/create-ubuntu-usb/</guid>
+      <guid>https://entroware.github.io/posts/create-ubuntu-usb/</guid>
       <description>
         
           

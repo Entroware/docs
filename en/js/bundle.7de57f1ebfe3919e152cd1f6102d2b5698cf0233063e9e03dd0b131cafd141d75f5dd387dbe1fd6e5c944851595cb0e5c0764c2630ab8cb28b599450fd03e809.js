@@ -10,7 +10,7 @@ const imageAltClass = 'img_alt';
 
 
 const defaultSiteLanguage = 'en';
-const baseURL = 'https://mw5638.github.io/docs/';
+const baseURL = 'https://entroware.github.io/';
 const searchFieldClass = '.search_field';
 const searchClass = '.search';
 const goBackClass = 'button_back';

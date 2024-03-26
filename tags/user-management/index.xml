@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User Management on Entroware Documentation</title>
-    <link>https://mw5638.github.io/docs/tags/user-management/</link>
+    <link>https://entroware.github.io/tags/user-management/</link>
     <description>Recent content in User Management on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mw5638.github.io/docs/tags/user-management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://entroware.github.io/tags/user-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Managing Users and Groups in Linux</title>
-      <link>https://mw5638.github.io/docs/posts/linux-user-group-management/</link>
+      <link>https://entroware.github.io/posts/linux-user-group-management/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mw5638.github.io/docs/posts/linux-user-group-management/</guid>
+      <guid>https://entroware.github.io/posts/linux-user-group-management/</guid>
       <description>
         
           
