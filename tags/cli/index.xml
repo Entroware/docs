@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CLI on Entroware Documentation</title>
-    <link>https://entroware.github.io/tags/cli/</link>
+    <link>https://docs.entroware.com/tags/cli/</link>
     <description>Recent content in CLI on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://entroware.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Command Line Cheat Sheet</title>
-      <link>https://entroware.github.io/posts/linux-cli-cheat-sheet/</link>
+      <link>https://docs.entroware.com/posts/linux-cli-cheat-sheet/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/linux-cli-cheat-sheet/</guid>
+      <guid>https://docs.entroware.com/posts/linux-cli-cheat-sheet/</guid>
       <description>
         
           
@@ -25,10 +25,10 @@
     
     <item>
       <title>The Linux Command Line For Beginners</title>
-      <link>https://entroware.github.io/posts/beginner-linux-command-line/</link>
+      <link>https://docs.entroware.com/posts/beginner-linux-command-line/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/beginner-linux-command-line/</guid>
+      <guid>https://docs.entroware.com/posts/beginner-linux-command-line/</guid>
       <description>
         
           

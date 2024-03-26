@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Filesystem on Entroware Documentation</title>
-    <link>https://entroware.github.io/tags/filesystem/</link>
+    <link>https://docs.entroware.com/tags/filesystem/</link>
     <description>Recent content in Filesystem on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://entroware.github.io/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding the Linux Filesystem Hierarchy</title>
-      <link>https://entroware.github.io/posts/linux-filesystem-hierarchy/</link>
+      <link>https://docs.entroware.com/posts/linux-filesystem-hierarchy/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/linux-filesystem-hierarchy/</guid>
+      <guid>https://docs.entroware.com/posts/linux-filesystem-hierarchy/</guid>
       <description>
         
           

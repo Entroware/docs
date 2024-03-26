@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Install on Entroware Documentation</title>
-    <link>https://entroware.github.io/tags/install/</link>
+    <link>https://docs.entroware.com/tags/install/</link>
     <description>Recent content in Install on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://entroware.github.io/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/tags/install/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create an Ubuntu installation USB on Ubuntu</title>
-      <link>https://entroware.github.io/posts/create-ubuntu-usb/</link>
+      <link>https://docs.entroware.com/posts/create-ubuntu-usb/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/create-ubuntu-usb/</guid>
+      <guid>https://docs.entroware.com/posts/create-ubuntu-usb/</guid>
       <description>
         
           

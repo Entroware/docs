@@ -25,29 +25,29 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@Entroware">
 <meta name="twitter:title" content="Understanding the Linux Filesystem Hierarchy" />
-<meta name="twitter:image" content="https://entroware.github.io/images/thumbnail.png"/>
-<meta property="og:url" content="https://entroware.github.io/posts/linux-filesystem-hierarchy/" />
+<meta name="twitter:image" content="https://docs.entroware.com/images/thumbnail.png"/>
+<meta property="og:url" content="https://docs.entroware.com/posts/linux-filesystem-hierarchy/" />
 <meta property="og:title" content="Understanding the Linux Filesystem Hierarchy" />
 <meta property="og:description" content="An overview of the Linux filesystem hierarchy." />
-<meta property="og:image" content="https://entroware.github.io/images/thumbnail.png" />
+<meta property="og:image" content="https://docs.entroware.com/images/thumbnail.png" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="https://entroware.github.io/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://entroware.github.io/icons/favicon-32x32.png">
-<link rel="manifest" href="https://entroware.github.io/icons/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="https://docs.entroware.com/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://docs.entroware.com/icons/favicon-32x32.png">
+<link rel="manifest" href="https://docs.entroware.com/icons/site.webmanifest">
 
-<link rel="canonical" href="https://entroware.github.io/posts/linux-filesystem-hierarchy/">
-
-
-
-<link rel="preload" href="https://entroware.github.io/css/styles.99e0f2c31567eea720182c824b46952d0e8f4a8807d42eab1b704fec13ef1fd0c89ba8aa74ea2be2c5e3120af8603140e3ad65465965e262cd76bbf6c11a836a.css" integrity = "sha512-meDywxVn7qcgGCyCS0aVLQ6PSogH1C6rG3BP7BPvH9DIm6iqdOor4sXjEgr4YDFA461lRlll4mLNdrv2wRqDag==" as="style" crossorigin="anonymous">
+<link rel="canonical" href="https://docs.entroware.com/posts/linux-filesystem-hierarchy/">
 
 
 
-<link rel="preload" href="https://entroware.github.io/en/js/bundle.7de57f1ebfe3919e152cd1f6102d2b5698cf0233063e9e03dd0b131cafd141d75f5dd387dbe1fd6e5c944851595cb0e5c0764c2630ab8cb28b599450fd03e809.js" as="script" integrity=
-"sha512-feV/Hr/jkZ4VLNH2EC0rVpjPAjMGPp4D3QsTHK/RQddfXdOH2&#43;H9blyUSFFZXLDlwHZMJjCrjLKLWZRQ/QPoCQ==" crossorigin="anonymous">
+<link rel="preload" href="https://docs.entroware.com/css/styles.99e0f2c31567eea720182c824b46952d0e8f4a8807d42eab1b704fec13ef1fd0c89ba8aa74ea2be2c5e3120af8603140e3ad65465965e262cd76bbf6c11a836a.css" integrity = "sha512-meDywxVn7qcgGCyCS0aVLQ6PSogH1C6rG3BP7BPvH9DIm6iqdOor4sXjEgr4YDFA461lRlll4mLNdrv2wRqDag==" as="style" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="https://entroware.github.io/css/styles.99e0f2c31567eea720182c824b46952d0e8f4a8807d42eab1b704fec13ef1fd0c89ba8aa74ea2be2c5e3120af8603140e3ad65465965e262cd76bbf6c11a836a.css" integrity="sha512-meDywxVn7qcgGCyCS0aVLQ6PSogH1C6rG3BP7BPvH9DIm6iqdOor4sXjEgr4YDFA461lRlll4mLNdrv2wRqDag==" crossorigin="anonymous">
+
+<link rel="preload" href="https://docs.entroware.com/en/js/bundle.c568fe41918381346f1655ee1317db573fe9e0b96b6c32e362f4bf5ac7d166d3cd2ea7edaa7509e6fe0cf56d60a15cbee3931a6301af60aa3ebb8c83b58470df.js" as="script" integrity=
+"sha512-xWj&#43;QZGDgTRvFlXuExfbVz/p4LlrbDLjYvS/WsfRZtPNLqftqnUJ5v4M9W1goVy&#43;45MaYwGvYKo&#43;u4yDtYRw3w==" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="https://docs.entroware.com/css/styles.99e0f2c31567eea720182c824b46952d0e8f4a8807d42eab1b704fec13ef1fd0c89ba8aa74ea2be2c5e3120af8603140e3ad65465965e262cd76bbf6c11a836a.css" integrity="sha512-meDywxVn7qcgGCyCS0aVLQ6PSogH1C6rG3BP7BPvH9DIm6iqdOor4sXjEgr4YDFA461lRlll4mLNdrv2wRqDag==" crossorigin="anonymous">
 
   </head>
   <body
@@ -58,8 +58,8 @@
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='https://entroware.github.io/' class="nav_brand nav_item nav_hide" title="Entroware Documentation">
-  <img src="https://entroware.github.io/logos/logo.png" class="logo" alt="Entroware Documentation">
+  <nav class="nav"><a href='https://docs.entroware.com/' class="nav_brand nav_item nav_hide" title="Entroware Documentation">
+  <img src="https://docs.entroware.com/logos/logo.png" class="logo" alt="Entroware Documentation">
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -80,13 +80,13 @@
         
 
   <div class="nav_parent">
-    <a href="https://entroware.github.io/" class="nav_item" title="Posts">Posts </a>
+    <a href="https://docs.entroware.com/" class="nav_item" title="Posts">Posts </a>
   </div>
   <div class="nav_parent">
-    <a href="https://entroware.github.io/about/" class="nav_item" title="About">About </a>
+    <a href="https://docs.entroware.com/about/" class="nav_item" title="About">About </a>
   </div>
-      <a href='https://entroware.github.io/' class="nav_brand nav_item nav_center" title="Entroware Documentation">
-  <img src="https://entroware.github.io/logos/logo.png" class="logo" alt="Entroware Documentation">
+      <a href='https://docs.entroware.com/' class="nav_brand nav_item nav_center" title="Entroware Documentation">
+  <img src="https://docs.entroware.com/logos/logo.png" class="logo" alt="Entroware Documentation">
 </a>
 
 <div class='follow'>
@@ -105,7 +105,7 @@
 
   </a>
     
-  <a href="https://entroware.github.io/index.xml">
+  <a href="https://docs.entroware.com/index.xml">
     <svg class="icon">
   <title>rss</title>
   <use xlink:href="#rss"></use>
@@ -135,23 +135,23 @@
 </span>
     <span class="post_date">
       Mar 21, 2024</span>
-    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://entroware.github.io/tags/linux/' title="Linux" class="post_tag button button_translucent">Linux
-        </a><a href='https://entroware.github.io/tags/filesystem/' title="Filesystem" class="post_tag button button_translucent">Filesystem
-        </a><a href='https://entroware.github.io/tags/hierarchy/' title="Hierarchy" class="post_tag button button_translucent">Hierarchy
-        </a><a href='https://entroware.github.io/tags/fhs/' title="FHS" class="post_tag button button_translucent">FHS
+    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://docs.entroware.com/tags/linux/' title="Linux" class="post_tag button button_translucent">Linux
+        </a><a href='https://docs.entroware.com/tags/filesystem/' title="Filesystem" class="post_tag button button_translucent">Filesystem
+        </a><a href='https://docs.entroware.com/tags/hierarchy/' title="Hierarchy" class="post_tag button button_translucent">Hierarchy
+        </a><a href='https://docs.entroware.com/tags/fhs/' title="FHS" class="post_tag button button_translucent">FHS
         </a>
     </span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Understanding%20the%20Linux%20Filesystem%20Hierarchy&url=https%3a%2f%2fentroware.github.io%2fposts%2flinux-filesystem-hierarchy%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Understanding%20the%20Linux%20Filesystem%20Hierarchy&url=https%3a%2f%2fdocs.entroware.com%2fposts%2flinux-filesystem-hierarchy%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fentroware.github.io%2fposts%2flinux-filesystem-hierarchy%2f&t=Understanding%20the%20Linux%20Filesystem%20Hierarchy" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdocs.entroware.com%2fposts%2flinux-filesystem-hierarchy%2f&t=Understanding%20the%20Linux%20Filesystem%20Hierarchy" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -165,7 +165,7 @@
 </svg>
 
     </a>
-    <a href="https://entroware.github.io/posts/linux-filesystem-hierarchy/" title="Copy Link" class="link link_yank">
+    <a href="https://docs.entroware.com/posts/linux-filesystem-hierarchy/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -238,99 +238,99 @@
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
-        <a href="https://entroware.github.io/posts/install-steam-ubuntu/" class="nav-link" title="Install Steam on Ubuntu">Install Steam on Ubuntu</a>
+        <a href="https://docs.entroware.com/posts/install-steam-ubuntu/" class="nav-link" title="Install Steam on Ubuntu">Install Steam on Ubuntu</a>
       </li>
       <li>
-        <a href="https://entroware.github.io/posts/bash-basics/" class="nav-link" title="Bash Programming Basics">Bash Programming Basics</a>
+        <a href="https://docs.entroware.com/posts/bash-basics/" class="nav-link" title="Bash Programming Basics">Bash Programming Basics</a>
       </li>
       <li>
-        <a href="https://entroware.github.io/posts/ubuntu-server-network-configuration/" class="nav-link" title="Configuring Network Settings in Ubuntu Server: Basics and Troubleshooting">Configuring Network Settings in Ubuntu Server: Basics and Troubleshooting</a>
+        <a href="https://docs.entroware.com/posts/ubuntu-server-network-configuration/" class="nav-link" title="Configuring Network Settings in Ubuntu Server: Basics and Troubleshooting">Configuring Network Settings in Ubuntu Server: Basics and Troubleshooting</a>
       </li>
       <li>
-        <a href="https://entroware.github.io/posts/linux-cli-cheat-sheet/" class="nav-link" title="Linux Command Line Cheat Sheet">Linux Command Line Cheat Sheet</a>
+        <a href="https://docs.entroware.com/posts/linux-cli-cheat-sheet/" class="nav-link" title="Linux Command Line Cheat Sheet">Linux Command Line Cheat Sheet</a>
       </li>
       <li>
-        <a href="https://entroware.github.io/posts/linux-systemd-timers/" class="nav-link" title="Managing Scheduled Tasks with Systemd Timers in Linux">Managing Scheduled Tasks with Systemd Timers in Linux</a>
+        <a href="https://docs.entroware.com/posts/linux-systemd-timers/" class="nav-link" title="Managing Scheduled Tasks with Systemd Timers in Linux">Managing Scheduled Tasks with Systemd Timers in Linux</a>
       </li>
       <li>
-        <a href="https://entroware.github.io/posts/linux-user-group-management/" class="nav-link" title="Managing Users and Groups in Linux">Managing Users and Groups in Linux</a>
+        <a href="https://docs.entroware.com/posts/linux-user-group-management/" class="nav-link" title="Managing Users and Groups in Linux">Managing Users and Groups in Linux</a>
       </li>
       <li>
-        <a href="https://entroware.github.io/posts/ubuntu-lemp-stack-setup/" class="nav-link" title="Setting Up a LEMP Stack on Ubuntu">Setting Up a LEMP Stack on Ubuntu</a>
+        <a href="https://docs.entroware.com/posts/ubuntu-lemp-stack-setup/" class="nav-link" title="Setting Up a LEMP Stack on Ubuntu">Setting Up a LEMP Stack on Ubuntu</a>
       </li>
       <li>
-        <a href="https://entroware.github.io/posts/ubuntu-luks-encryption-setup/" class="nav-link" title="Setting Up LUKS Encryption on Ubuntu">Setting Up LUKS Encryption on Ubuntu</a>
+        <a href="https://docs.entroware.com/posts/ubuntu-luks-encryption-setup/" class="nav-link" title="Setting Up LUKS Encryption on Ubuntu">Setting Up LUKS Encryption on Ubuntu</a>
       </li>
     </ul>
     <div>
       <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
       <nav class="tags_nav">
-        <a href='https://entroware.github.io/tags/linux/' class="post_tag button button_translucent" title="linux">
+        <a href='https://docs.entroware.com/tags/linux/' class="post_tag button button_translucent" title="linux">
           LINUX
           <span class="button_tally">9</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/ubuntu/' class="post_tag button button_translucent" title="ubuntu">
+        <a href='https://docs.entroware.com/tags/ubuntu/' class="post_tag button button_translucent" title="ubuntu">
           UBUNTU
           <span class="button_tally">6</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/cli/' class="post_tag button button_translucent" title="cli">
+        <a href='https://docs.entroware.com/tags/cli/' class="post_tag button button_translucent" title="cli">
           CLI
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/command-line/' class="post_tag button button_translucent" title="command line">
+        <a href='https://docs.entroware.com/tags/command-line/' class="post_tag button button_translucent" title="command line">
           COMMAND LINE
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/security/' class="post_tag button button_translucent" title="security">
+        <a href='https://docs.entroware.com/tags/security/' class="post_tag button button_translucent" title="security">
           SECURITY
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/task-scheduling/' class="post_tag button button_translucent" title="task scheduling">
+        <a href='https://docs.entroware.com/tags/task-scheduling/' class="post_tag button button_translucent" title="task scheduling">
           TASK SCHEDULING
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/apt/' class="post_tag button button_translucent" title="apt">
+        <a href='https://docs.entroware.com/tags/apt/' class="post_tag button button_translucent" title="apt">
           APT
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/authentication/' class="post_tag button button_translucent" title="authentication">
+        <a href='https://docs.entroware.com/tags/authentication/' class="post_tag button button_translucent" title="authentication">
           AUTHENTICATION
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/automation/' class="post_tag button button_translucent" title="automation">
+        <a href='https://docs.entroware.com/tags/automation/' class="post_tag button button_translucent" title="automation">
           AUTOMATION
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/bash/' class="post_tag button button_translucent" title="bash">
+        <a href='https://docs.entroware.com/tags/bash/' class="post_tag button button_translucent" title="bash">
           BASH
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/cheat-sheet/' class="post_tag button button_translucent" title="cheat sheet">
+        <a href='https://docs.entroware.com/tags/cheat-sheet/' class="post_tag button button_translucent" title="cheat sheet">
           CHEAT SHEET
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/configuration/' class="post_tag button button_translucent" title="configuration">
+        <a href='https://docs.entroware.com/tags/configuration/' class="post_tag button button_translucent" title="configuration">
           CONFIGURATION
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/console/' class="post_tag button button_translucent" title="console">
+        <a href='https://docs.entroware.com/tags/console/' class="post_tag button button_translucent" title="console">
           CONSOLE
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://entroware.github.io/tags/cron/' class="post_tag button button_translucent" title="cron">
+        <a href='https://docs.entroware.com/tags/cron/' class="post_tag button button_translucent" title="cron">
           CRON
           <span class="button_tally">1</span>
         </a>
@@ -341,199 +341,199 @@
         <div class="post_tags">
           <div class="tags_list">
             
-            <a href='https://entroware.github.io/tags/apt/' class=" post_tag button button_translucent" data-position=1 title="apt">APT<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/apt/' class=" post_tag button button_translucent" data-position=1 title="apt">APT<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/authentication/' class=" post_tag button button_translucent" data-position=1 title="authentication">AUTHENTICATION<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/authentication/' class=" post_tag button button_translucent" data-position=1 title="authentication">AUTHENTICATION<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/automation/' class=" post_tag button button_translucent" data-position=1 title="automation">AUTOMATION<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/automation/' class=" post_tag button button_translucent" data-position=1 title="automation">AUTOMATION<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/bash/' class=" post_tag button button_translucent" data-position=1 title="bash">BASH<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/bash/' class=" post_tag button button_translucent" data-position=1 title="bash">BASH<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/cheat-sheet/' class=" post_tag button button_translucent" data-position=1 title="cheat sheet">CHEAT SHEET<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/cheat-sheet/' class=" post_tag button button_translucent" data-position=1 title="cheat sheet">CHEAT SHEET<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/cli/' class=" post_tag button button_translucent" data-position=2 title="cli">CLI<span class="button_tally">2</span>
+            <a href='https://docs.entroware.com/tags/cli/' class=" post_tag button button_translucent" data-position=2 title="cli">CLI<span class="button_tally">2</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/command-line/' class=" post_tag button button_translucent" data-position=2 title="command line">COMMAND LINE<span class="button_tally">2</span>
+            <a href='https://docs.entroware.com/tags/command-line/' class=" post_tag button button_translucent" data-position=2 title="command line">COMMAND LINE<span class="button_tally">2</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/configuration/' class=" post_tag button button_translucent" data-position=1 title="configuration">CONFIGURATION<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/configuration/' class=" post_tag button button_translucent" data-position=1 title="configuration">CONFIGURATION<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/console/' class=" post_tag button button_translucent" data-position=1 title="console">CONSOLE<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/console/' class=" post_tag button button_translucent" data-position=1 title="console">CONSOLE<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/cron/' class=" post_tag button button_translucent" data-position=1 title="cron">CRON<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/cron/' class=" post_tag button button_translucent" data-position=1 title="cron">CRON<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/deb/' class=" post_tag button button_translucent" data-position=1 title="deb">DEB<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/deb/' class=" post_tag button button_translucent" data-position=1 title="deb">DEB<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/dpkg/' class=" post_tag button button_translucent" data-position=1 title="dpkg">DPKG<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/dpkg/' class=" post_tag button button_translucent" data-position=1 title="dpkg">DPKG<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/encryption/' class=" post_tag button button_translucent" data-position=1 title="encryption">ENCRYPTION<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/encryption/' class=" post_tag button button_translucent" data-position=1 title="encryption">ENCRYPTION<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/fhs/' class=" post_tag button button_translucent" data-position=1 title="fhs">FHS<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/fhs/' class=" post_tag button button_translucent" data-position=1 title="fhs">FHS<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/file-permissions/' class=" post_tag button button_translucent" data-position=1 title="file permissions">FILE PERMISSIONS<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/file-permissions/' class=" post_tag button button_translucent" data-position=1 title="file permissions">FILE PERMISSIONS<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/filesystem/' class=" post_tag button button_translucent" data-position=1 title="filesystem">FILESYSTEM<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/filesystem/' class=" post_tag button button_translucent" data-position=1 title="filesystem">FILESYSTEM<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/gaming/' class=" post_tag button button_translucent" data-position=1 title="gaming">GAMING<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/gaming/' class=" post_tag button button_translucent" data-position=1 title="gaming">GAMING<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/group-management/' class=" post_tag button button_translucent" data-position=1 title="group management">GROUP MANAGEMENT<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/group-management/' class=" post_tag button button_translucent" data-position=1 title="group management">GROUP MANAGEMENT<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/hierarchy/' class=" post_tag button button_translucent" data-position=1 title="hierarchy">HIERARCHY<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/hierarchy/' class=" post_tag button button_translucent" data-position=1 title="hierarchy">HIERARCHY<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/index/' class=" post_tag button button_translucent" data-position=1 title="index">INDEX<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/index/' class=" post_tag button button_translucent" data-position=1 title="index">INDEX<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/install/' class=" post_tag button button_translucent" data-position=1 title="install">INSTALL<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/install/' class=" post_tag button button_translucent" data-position=1 title="install">INSTALL<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/lemp/' class=" post_tag button button_translucent" data-position=1 title="lemp">LEMP<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/lemp/' class=" post_tag button button_translucent" data-position=1 title="lemp">LEMP<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/linux/' class=" post_tag button button_translucent" data-position=9 title="linux">LINUX<span class="button_tally">9</span>
+            <a href='https://docs.entroware.com/tags/linux/' class=" post_tag button button_translucent" data-position=9 title="linux">LINUX<span class="button_tally">9</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/luks/' class=" post_tag button button_translucent" data-position=1 title="luks">LUKS<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/luks/' class=" post_tag button button_translucent" data-position=1 title="luks">LUKS<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/mysql/' class=" post_tag button button_translucent" data-position=1 title="mysql">MYSQL<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/mysql/' class=" post_tag button button_translucent" data-position=1 title="mysql">MYSQL<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/networking/' class=" post_tag button button_translucent" data-position=1 title="networking">NETWORKING<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/networking/' class=" post_tag button button_translucent" data-position=1 title="networking">NETWORKING<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/nginx/' class=" post_tag button button_translucent" data-position=1 title="nginx">NGINX<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/nginx/' class=" post_tag button button_translucent" data-position=1 title="nginx">NGINX<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/numeric-representation/' class=" post_tag button button_translucent" data-position=1 title="numeric representation">NUMERIC REPRESENTATION<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/numeric-representation/' class=" post_tag button button_translucent" data-position=1 title="numeric representation">NUMERIC REPRESENTATION<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/package-management/' class=" post_tag button button_translucent" data-position=1 title="package management">PACKAGE MANAGEMENT<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/package-management/' class=" post_tag button button_translucent" data-position=1 title="package management">PACKAGE MANAGEMENT<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/php/' class=" post_tag button button_translucent" data-position=1 title="php">PHP<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/php/' class=" post_tag button button_translucent" data-position=1 title="php">PHP<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/programming/' class=" post_tag button button_translucent" data-position=1 title="programming">PROGRAMMING<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/programming/' class=" post_tag button button_translucent" data-position=1 title="programming">PROGRAMMING<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/scripting/' class=" post_tag button button_translucent" data-position=1 title="scripting">SCRIPTING<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/scripting/' class=" post_tag button button_translucent" data-position=1 title="scripting">SCRIPTING<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/security/' class=" post_tag button button_translucent" data-position=2 title="security">SECURITY<span class="button_tally">2</span>
+            <a href='https://docs.entroware.com/tags/security/' class=" post_tag button button_translucent" data-position=2 title="security">SECURITY<span class="button_tally">2</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/shell/' class=" post_tag button button_translucent" data-position=1 title="shell">SHELL<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/shell/' class=" post_tag button button_translucent" data-position=1 title="shell">SHELL<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/snap/' class=" post_tag button button_translucent" data-position=1 title="snap">SNAP<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/snap/' class=" post_tag button button_translucent" data-position=1 title="snap">SNAP<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/ssh/' class=" post_tag button button_translucent" data-position=1 title="ssh">SSH<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/ssh/' class=" post_tag button button_translucent" data-position=1 title="ssh">SSH<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/ssh-keys/' class=" post_tag button button_translucent" data-position=1 title="ssh keys">SSH KEYS<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/ssh-keys/' class=" post_tag button button_translucent" data-position=1 title="ssh keys">SSH KEYS<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/steam/' class=" post_tag button button_translucent" data-position=1 title="steam">STEAM<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/steam/' class=" post_tag button button_translucent" data-position=1 title="steam">STEAM<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/system-administration/' class=" post_tag button button_translucent" data-position=1 title="system administration">SYSTEM ADMINISTRATION<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/system-administration/' class=" post_tag button button_translucent" data-position=1 title="system administration">SYSTEM ADMINISTRATION<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/systemd/' class=" post_tag button button_translucent" data-position=1 title="systemd">SYSTEMD<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/systemd/' class=" post_tag button button_translucent" data-position=1 title="systemd">SYSTEMD<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/task-scheduling/' class=" post_tag button button_translucent" data-position=2 title="task scheduling">TASK SCHEDULING<span class="button_tally">2</span>
+            <a href='https://docs.entroware.com/tags/task-scheduling/' class=" post_tag button button_translucent" data-position=2 title="task scheduling">TASK SCHEDULING<span class="button_tally">2</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/terminal/' class=" post_tag button button_translucent" data-position=1 title="terminal">TERMINAL<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/terminal/' class=" post_tag button button_translucent" data-position=1 title="terminal">TERMINAL<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/timers/' class=" post_tag button button_translucent" data-position=1 title="timers">TIMERS<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/timers/' class=" post_tag button button_translucent" data-position=1 title="timers">TIMERS<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/troubleshooting/' class=" post_tag button button_translucent" data-position=1 title="troubleshooting">TROUBLESHOOTING<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/troubleshooting/' class=" post_tag button button_translucent" data-position=1 title="troubleshooting">TROUBLESHOOTING<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/ubuntu/' class=" post_tag button button_translucent" data-position=6 title="ubuntu">UBUNTU<span class="button_tally">6</span>
+            <a href='https://docs.entroware.com/tags/ubuntu/' class=" post_tag button button_translucent" data-position=6 title="ubuntu">UBUNTU<span class="button_tally">6</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/ubuntu-server/' class=" post_tag button button_translucent" data-position=1 title="ubuntu server">UBUNTU SERVER<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/ubuntu-server/' class=" post_tag button button_translucent" data-position=1 title="ubuntu server">UBUNTU SERVER<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/usb/' class=" post_tag button button_translucent" data-position=1 title="usb">USB<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/usb/' class=" post_tag button button_translucent" data-position=1 title="usb">USB<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/user-management/' class=" post_tag button button_translucent" data-position=1 title="user management">USER MANAGEMENT<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/user-management/' class=" post_tag button button_translucent" data-position=1 title="user management">USER MANAGEMENT<span class="button_tally">1</span>
             </a>
             
             
-            <a href='https://entroware.github.io/tags/web-hosting/' class=" post_tag button button_translucent" data-position=1 title="web hosting">WEB HOSTING<span class="button_tally">1</span>
+            <a href='https://docs.entroware.com/tags/web-hosting/' class=" post_tag button button_translucent" data-position=1 title="web hosting">WEB HOSTING<span class="button_tally">1</span>
             </a>
             
             <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
@@ -628,7 +628,7 @@
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='https://entroware.github.io/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Entroware Documentation">
+    <img src='https://docs.entroware.com/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Entroware Documentation">
     <p>Copyright&nbsp;<span class="year"></span>&nbsp;ENTROWARE DOCUMENTATION. All Rights Reserved</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <title>to-top</title>
@@ -640,9 +640,9 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="https://entroware.github.io/en/js/bundle.7de57f1ebfe3919e152cd1f6102d2b5698cf0233063e9e03dd0b131cafd141d75f5dd387dbe1fd6e5c944851595cb0e5c0764c2630ab8cb28b599450fd03e809.js" integrity="sha512-feV/Hr/jkZ4VLNH2EC0rVpjPAjMGPp4D3QsTHK/RQddfXdOH2&#43;H9blyUSFFZXLDlwHZMJjCrjLKLWZRQ/QPoCQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://docs.entroware.com/en/js/bundle.c568fe41918381346f1655ee1317db573fe9e0b96b6c32e362f4bf5ac7d166d3cd2ea7edaa7509e6fe0cf56d60a15cbee3931a6301af60aa3ebb8c83b58470df.js" integrity="sha512-xWj&#43;QZGDgTRvFlXuExfbVz/p4LlrbDLjYvS/WsfRZtPNLqftqnUJ5v4M9W1goVy&#43;45MaYwGvYKo&#43;u4yDtYRw3w==" crossorigin="anonymous"></script>
 
-  <script src="https://entroware.github.io/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
+  <script src="https://docs.entroware.com/js/search.min.73cb82d8f274395dd220d6594053cd3d3d8ac8c97d874b5142a60b9744f3704d765551e0ade104d5803c66b731f5a7a00ac2cff33c8c9090ff8100169a3e2574.js"></script>
 
   </body>
 </html>

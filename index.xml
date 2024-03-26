@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Entroware Documentation</title>
-    <link>https://entroware.github.io/</link>
+    <link>https://docs.entroware.com/</link>
     <description>Recent content on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://entroware.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Steam on Ubuntu</title>
-      <link>https://entroware.github.io/posts/install-steam-ubuntu/</link>
+      <link>https://docs.entroware.com/posts/install-steam-ubuntu/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/install-steam-ubuntu/</guid>
+      <guid>https://docs.entroware.com/posts/install-steam-ubuntu/</guid>
       <description>
         
           
@@ -25,10 +25,10 @@
     
     <item>
       <title>Bash Programming Basics</title>
-      <link>https://entroware.github.io/posts/bash-basics/</link>
+      <link>https://docs.entroware.com/posts/bash-basics/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/bash-basics/</guid>
+      <guid>https://docs.entroware.com/posts/bash-basics/</guid>
       <description>
         
           
@@ -41,10 +41,10 @@
     
     <item>
       <title>Configuring Network Settings in Ubuntu Server: Basics and Troubleshooting</title>
-      <link>https://entroware.github.io/posts/ubuntu-server-network-configuration/</link>
+      <link>https://docs.entroware.com/posts/ubuntu-server-network-configuration/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/ubuntu-server-network-configuration/</guid>
+      <guid>https://docs.entroware.com/posts/ubuntu-server-network-configuration/</guid>
       <description>
         
           
@@ -57,10 +57,10 @@
     
     <item>
       <title>Linux Command Line Cheat Sheet</title>
-      <link>https://entroware.github.io/posts/linux-cli-cheat-sheet/</link>
+      <link>https://docs.entroware.com/posts/linux-cli-cheat-sheet/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/linux-cli-cheat-sheet/</guid>
+      <guid>https://docs.entroware.com/posts/linux-cli-cheat-sheet/</guid>
       <description>
         
           
@@ -73,10 +73,10 @@
     
     <item>
       <title>Managing Scheduled Tasks with Systemd Timers in Linux</title>
-      <link>https://entroware.github.io/posts/linux-systemd-timers/</link>
+      <link>https://docs.entroware.com/posts/linux-systemd-timers/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/linux-systemd-timers/</guid>
+      <guid>https://docs.entroware.com/posts/linux-systemd-timers/</guid>
       <description>
         
           
@@ -89,10 +89,10 @@
     
     <item>
       <title>Managing Users and Groups in Linux</title>
-      <link>https://entroware.github.io/posts/linux-user-group-management/</link>
+      <link>https://docs.entroware.com/posts/linux-user-group-management/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/linux-user-group-management/</guid>
+      <guid>https://docs.entroware.com/posts/linux-user-group-management/</guid>
       <description>
         
           
@@ -105,10 +105,10 @@
     
     <item>
       <title>Setting Up a LEMP Stack on Ubuntu</title>
-      <link>https://entroware.github.io/posts/ubuntu-lemp-stack-setup/</link>
+      <link>https://docs.entroware.com/posts/ubuntu-lemp-stack-setup/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/ubuntu-lemp-stack-setup/</guid>
+      <guid>https://docs.entroware.com/posts/ubuntu-lemp-stack-setup/</guid>
       <description>
         
           
@@ -121,10 +121,10 @@
     
     <item>
       <title>Setting Up LUKS Encryption on Ubuntu</title>
-      <link>https://entroware.github.io/posts/ubuntu-luks-encryption-setup/</link>
+      <link>https://docs.entroware.com/posts/ubuntu-luks-encryption-setup/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/ubuntu-luks-encryption-setup/</guid>
+      <guid>https://docs.entroware.com/posts/ubuntu-luks-encryption-setup/</guid>
       <description>
         
           
@@ -137,10 +137,10 @@
     
     <item>
       <title>Setting Up SSH and Using SSH Keys on Ubuntu</title>
-      <link>https://entroware.github.io/posts/ubuntu-ssh-keys-setup/</link>
+      <link>https://docs.entroware.com/posts/ubuntu-ssh-keys-setup/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/ubuntu-ssh-keys-setup/</guid>
+      <guid>https://docs.entroware.com/posts/ubuntu-ssh-keys-setup/</guid>
       <description>
         
           
@@ -153,10 +153,10 @@
     
     <item>
       <title>The Linux Command Line For Beginners</title>
-      <link>https://entroware.github.io/posts/beginner-linux-command-line/</link>
+      <link>https://docs.entroware.com/posts/beginner-linux-command-line/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/beginner-linux-command-line/</guid>
+      <guid>https://docs.entroware.com/posts/beginner-linux-command-line/</guid>
       <description>
         
           
@@ -169,10 +169,10 @@
     
     <item>
       <title>Ubuntu Package Management</title>
-      <link>https://entroware.github.io/posts/ubuntu-package-management/</link>
+      <link>https://docs.entroware.com/posts/ubuntu-package-management/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/ubuntu-package-management/</guid>
+      <guid>https://docs.entroware.com/posts/ubuntu-package-management/</guid>
       <description>
         
           
@@ -185,10 +185,10 @@
     
     <item>
       <title>Understanding Linux File Permissions and Numeric Representation</title>
-      <link>https://entroware.github.io/posts/linux-file-permissions/</link>
+      <link>https://docs.entroware.com/posts/linux-file-permissions/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/linux-file-permissions/</guid>
+      <guid>https://docs.entroware.com/posts/linux-file-permissions/</guid>
       <description>
         
           
@@ -201,10 +201,10 @@
     
     <item>
       <title>Understanding the Linux Filesystem Hierarchy</title>
-      <link>https://entroware.github.io/posts/linux-filesystem-hierarchy/</link>
+      <link>https://docs.entroware.com/posts/linux-filesystem-hierarchy/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/linux-filesystem-hierarchy/</guid>
+      <guid>https://docs.entroware.com/posts/linux-filesystem-hierarchy/</guid>
       <description>
         
           
@@ -217,10 +217,10 @@
     
     <item>
       <title>Using Cron in Linux: Scheduling Tasks (deprecated)</title>
-      <link>https://entroware.github.io/posts/linux-cron-scheduling-tasks/</link>
+      <link>https://docs.entroware.com/posts/linux-cron-scheduling-tasks/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/linux-cron-scheduling-tasks/</guid>
+      <guid>https://docs.entroware.com/posts/linux-cron-scheduling-tasks/</guid>
       <description>
         
           
@@ -233,10 +233,10 @@
     
     <item>
       <title>Create an Ubuntu installation USB on Ubuntu</title>
-      <link>https://entroware.github.io/posts/create-ubuntu-usb/</link>
+      <link>https://docs.entroware.com/posts/create-ubuntu-usb/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://entroware.github.io/posts/create-ubuntu-usb/</guid>
+      <guid>https://docs.entroware.com/posts/create-ubuntu-usb/</guid>
       <description>
         
           
