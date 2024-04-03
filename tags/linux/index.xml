@@ -40,6 +40,22 @@
     </item>
     
     <item>
+      <title>Create and use a Memtest86 USB Drive in Ubuntu</title>
+      <link>https://docs.entroware.com/posts/memtest86/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.entroware.com/posts/memtest86/</guid>
+      <description>
+        
+          
+            This article explains how to create a memtest86 bootable USB drive in Ubuntu and boot into it to test the integrity of the memory in your system.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Linux Command Line Cheat Sheet</title>
       <link>https://docs.entroware.com/posts/linux-cli-cheat-sheet/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>

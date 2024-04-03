@@ -41,6 +41,9 @@
     <loc>https://docs.entroware.com/posts/bash-basics/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://docs.entroware.com/tags/bootable/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://docs.entroware.com/tags/cheat-sheet/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -57,6 +60,9 @@
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/console/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/posts/memtest86/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/cron/</loc>
@@ -102,6 +108,12 @@
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/posts/linux-user-group-management/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/memtest/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/memtest86/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/mysql/</loc>
@@ -185,6 +197,9 @@
     <loc>https://docs.entroware.com/posts/linux-filesystem-hierarchy/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://docs.entroware.com/tags/usb/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://docs.entroware.com/tags/user-management/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -201,9 +216,6 @@
     <lastmod>2024-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/install/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/tags/usb/</loc>
     <lastmod>2024-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/categories/</loc>
