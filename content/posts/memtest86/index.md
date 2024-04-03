@@ -39,6 +39,7 @@ Extract *memtest86-usb.img* from the archive
 3. Under Image to Restore, choose the extracted 'memstest86-usb.img' from earlier and click `Start Restoring...`
 ![Select USB drive](images/memtest-drive-2.png)
 
+Click `Restore` on the next window to finish imaging the drive.
 
 Finally, shut down your system to proceed to the next stage.
 
