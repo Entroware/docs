@@ -44,7 +44,7 @@ Finally, shut down your system to proceed to the next stage.
 
 ### Using Memtest86
 
-1. Ensure AC is connected, power machine on and press your boot key (F7 on Entroware laptops, F8 or F12 on Entroware desktops). 
+1. Ensure AC is connected, power machine on and press boot key (F7 on Entroware laptops). 
 From the boot menu, select the removable drive and press enter.
 ![Boot select](images/memtest-0.png)
 
