@@ -146,7 +146,7 @@
 </span>
     <span class="post_date">
       Mar 21, 2024</span>
-    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://docs.entroware.com/tags/linux/' title="Linux" class="post_tag button button_translucent">Linux
+    <span class="post_time"> · 3 min read</span><span>&nbsp;· <a href='https://docs.entroware.com/tags/linux/' title="Linux" class="post_tag button button_translucent">Linux
         </a><a href='https://docs.entroware.com/tags/command-line/' title="Command Line" class="post_tag button button_translucent">Command Line
         </a><a href='https://docs.entroware.com/tags/cli/' title="CLI" class="post_tag button button_translucent">CLI
         </a><a href='https://docs.entroware.com/tags/cheat-sheet/' title="Cheat Sheet" class="post_tag button button_translucent">Cheat Sheet
@@ -187,87 +187,328 @@
   </span>
   </div>
 
-    <div class="post_body"><h2 id="file-management">File Management</h2>
-<ul>
-<li><code>ls</code>: List files and directories.</li>
-<li><code>pwd</code>: Print the current working directory.</li>
-<li><code>cd</code>: Change directory.</li>
-<li><code>mkdir</code>: Create a new directory.</li>
-<li><code>touch</code>: Create a new file.</li>
-<li><code>cp</code>: Copy files and directories.</li>
-<li><code>mv</code>: Move or rename files and directories.</li>
-<li><code>rm</code>: Remove files and directories.</li>
-<li><code>cat</code>: Display the contents of a file.</li>
-<li><code>less</code>: View the contents of a file interactively.</li>
-<li><code>head</code>: Display the beginning of a file.</li>
-<li><code>tail</code>: Display the end of a file.</li>
-</ul>
+    <div class="post_body"><h2 id="introduction">Introduction</h2>
+<p>The Linux command line is the most powerful way to interface with your system, providing you with options and flexibility that may not be available in a GUI. Becoming proficient with the CLI (Command Line Interface) will enable you to do more with your computer. This cheat sheet is designed to provide a reference for users who are new to the command line and if you would like to learn more about a particular command and its usage, users are encouraged to utilise the <code>man</code> command to review the command's manual page e.g. <code>man ls</code> and <strong>q</strong> to exit.</p>
+<h2 id="file-management">File Management</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ls</strong></td>
+<td>List files and directories.</td>
+</tr>
+<tr>
+<td><strong>pwd</strong></td>
+<td>Print the current working directory.</td>
+</tr>
+<tr>
+<td><strong>cd</strong></td>
+<td>Change directory.</td>
+</tr>
+<tr>
+<td><strong>mkdir</strong></td>
+<td>Create a new directory.</td>
+</tr>
+<tr>
+<td><strong>touch</strong></td>
+<td>Create a new file.</td>
+</tr>
+<tr>
+<td><strong>cp</strong></td>
+<td>Copy files and directories.</td>
+</tr>
+<tr>
+<td><strong>mv</strong></td>
+<td>Move or rename files and directories.</td>
+</tr>
+<tr>
+<td><strong>rm</strong></td>
+<td>Remove files and directories.</td>
+</tr>
+<tr>
+<td><strong>cat</strong></td>
+<td>Display the contents of a file.</td>
+</tr>
+<tr>
+<td><strong>less</strong></td>
+<td>View the contents of a file interactively.</td>
+</tr>
+<tr>
+<td><strong>head</strong></td>
+<td>Display the beginning of a file.</td>
+</tr>
+<tr>
+<td><strong>tail</strong></td>
+<td>Display the end of a file.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="navigation">Navigation</h2>
-<ul>
-<li><code>cd</code>: Change directory.</li>
-<li><code>ls</code>: List files and directories.</li>
-<li><code>pwd</code>: Print the current working directory.</li>
-<li><code>.</code>: Represents the current directory.</li>
-<li><code>..</code>: Represents the parent directory.</li>
-<li><code>-</code>: Represents the previous directory.</li>
-<li><code>~</code>: Represents the user's home directory.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>.</strong></td>
+<td>Represents the current directory.</td>
+</tr>
+<tr>
+<td><strong>..</strong></td>
+<td>Represents the parent directory.</td>
+</tr>
+<tr>
+<td><strong>-</strong></td>
+<td>Represents the previous directory.</td>
+</tr>
+<tr>
+<td><strong>~</strong></td>
+<td>Represents the user's home directory.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>cd ..</strong></td>
+<td>Change to parent directory.</td>
+</tr>
+<tr>
+<td><strong>ls ~</strong></td>
+<td>List files and directories in the home directory.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="system-information">System Information</h2>
-<ul>
-<li><code>uname</code>: Display system information.</li>
-<li><code>hostname</code>: Display the system's hostname.</li>
-<li><code>whoami</code>: Display the current user.</li>
-<li><code>date</code>: Display the current date and time.</li>
-<li><code>uptime</code>: Display system uptime.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>uname</strong></td>
+<td>Display system information.</td>
+</tr>
+<tr>
+<td><strong>hostname</strong></td>
+<td>Display the system's hostname.</td>
+</tr>
+<tr>
+<td><strong>whoami</strong></td>
+<td>Display the current user.</td>
+</tr>
+<tr>
+<td><strong>date</strong></td>
+<td>Display the current date and time.</td>
+</tr>
+<tr>
+<td><strong>uptime</strong></td>
+<td>Display system uptime.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="process-management">Process Management</h2>
-<ul>
-<li><code>ps</code>: Display information about running processes.</li>
-<li><code>top</code>: Display dynamic real-time information about running processes.</li>
-<li><code>kill</code>: Terminate a process by PID.</li>
-<li><code>killall</code>: Terminate all processes by name.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ps</strong></td>
+<td>Display information about running processes.</td>
+</tr>
+<tr>
+<td><strong>top</strong></td>
+<td>Display dynamic real-time information about running processes.</td>
+</tr>
+<tr>
+<td><strong>kill</strong></td>
+<td>Terminate a process by PID.</td>
+</tr>
+<tr>
+<td><strong>killall</strong></td>
+<td>Terminate all processes by name.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="package-management">Package Management</h2>
-<ul>
-<li><code>apt</code> &amp; <code>apt-get</code>: Package management utility for Ubuntu/Debian-based systems.</li>
-<li><code>yum</code>: Package management utility for Red Hat-based systems.</li>
-<li><code>dnf</code>: Package management utility for Fedora-based systems.</li>
-<li><code>snap</code>: Package management utility for multiple Linux systems.</li>
-<li><code>flatpak</code>: Package management utility for multiple Linux systems.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>apt</strong> &amp; <strong>apt-get</strong></td>
+<td>Package management utility for Ubuntu/Debian-based systems.</td>
+</tr>
+<tr>
+<td><strong>yum</strong></td>
+<td>Package management utility for Red Hat-based systems.</td>
+</tr>
+<tr>
+<td><strong>dnf</strong></td>
+<td>Package management utility for Fedora-based systems.</td>
+</tr>
+<tr>
+<td><strong>snap</strong></td>
+<td>Package management utility for multiple Linux systems.</td>
+</tr>
+<tr>
+<td><strong>flatpak</strong></td>
+<td>Package management utility for multiple Linux systems.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="network">Network</h2>
-<ul>
-<li><code>ping</code>: Send ICMP echo requests to a network host.</li>
-<li><code>ip</code>: Display and configure network interfaces.</li>
-<li><code>ss</code>: Display network connections.</li>
-<li><code>wget</code> &amp; <code>curl</code>: Retrieve files from the internet.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ping</strong></td>
+<td>Send ICMP echo requests to a network host.</td>
+</tr>
+<tr>
+<td><strong>ip</strong></td>
+<td>Display and configure network interfaces.</td>
+</tr>
+<tr>
+<td><strong>ss</strong></td>
+<td>Display network connections.</td>
+</tr>
+<tr>
+<td><strong>wget</strong> &amp; <strong>curl</strong></td>
+<td>Retrieve files from the internet.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="file-permissions">File Permissions</h2>
-<ul>
-<li><code>chmod</code>: Change file permissions.</li>
-<li><code>chown</code>: Change file owner and group.</li>
-<li><code>chgrp</code>: Change group ownership of files.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>chmod</strong></td>
+<td>Change file permissions.</td>
+</tr>
+<tr>
+<td><strong>chown</strong></td>
+<td>Change file owner and group.</td>
+</tr>
+<tr>
+<td><strong>chgrp</strong></td>
+<td>Change group ownership of files.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="text-processing">Text Processing</h2>
-<ul>
-<li><code>grep</code>: Search for patterns in files.</li>
-<li><code>sed</code>: Used for filtering and transforming text.</li>
-<li><code>awk</code>: Pattern scanning and processing tool.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>grep</strong></td>
+<td>Search for patterns in files.</td>
+</tr>
+<tr>
+<td><strong>sed</strong></td>
+<td>Used for filtering and transforming text.</td>
+</tr>
+<tr>
+<td><strong>awk</strong></td>
+<td>Pattern scanning and processing tool.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="compression-and-archiving">Compression and Archiving</h2>
-<ul>
-<li><code>tar</code>: Create, manipulate, or extract tar archives.</li>
-<li><code>gzip</code>: Compress or decompress files using gzip compression.</li>
-<li><code>zip</code>: Compress or decompress files using zip compression.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>tar</strong></td>
+<td>Create, manipulate, or extract tar archives.</td>
+</tr>
+<tr>
+<td><strong>gzip</strong></td>
+<td>Compress or decompress files using gzip compression.</td>
+</tr>
+<tr>
+<td><strong>zip</strong></td>
+<td>Compress or decompress files using zip compression.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="miscellaneous">Miscellaneous</h2>
-<ul>
-<li><code>echo</code>: Print text to the terminal.</li>
-<li><code>clear</code>: Clear the terminal screen.</li>
-<li><code>history</code>: Display command history.</li>
-<li><code>man</code>: Display the manual page for a command.</li>
-<li><code>sudo</code>: Execute a command as a superuser (root).</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>echo</strong></td>
+<td>Print text to the terminal.</td>
+</tr>
+<tr>
+<td><strong>clear</strong></td>
+<td>Clear the terminal screen.</td>
+</tr>
+<tr>
+<td><strong>history</strong></td>
+<td>Display command history.</td>
+</tr>
+<tr>
+<td><strong>man</strong></td>
+<td>Display the manual page for a command.</td>
+</tr>
+<tr>
+<td><strong>sudo</strong></td>
+<td>Execute a command as a superuser (root).</td>
+</tr>
+</tbody>
+</table>
 <h2 id="conclusion">Conclusion</h2>
 <p>This cheat sheet provides a quick reference for commonly used Linux command line commands. Keep it handy for quick access to essential commands for file management, navigation, system administration, and more. Experiment with these commands in a Linux terminal to enhance your proficiency and productivity on the command line.</p>
 
