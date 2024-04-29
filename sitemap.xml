@@ -3,7 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://docs.entroware.com/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/configure/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/posts/configure-docker-nvidia/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/container/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/docker/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/index/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/install/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/posts/install-tensorflow-nvidia/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/linux/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/machine-learning/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/nvidia/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/posts/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/tensorflow/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/toolkit/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/ubuntu/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/posts/install-docker-ubuntu/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/bootable/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
@@ -11,25 +59,10 @@
     <loc>https://docs.entroware.com/posts/memtest86/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://docs.entroware.com/tags/index/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/tags/linux/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://docs.entroware.com/tags/memtest/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/memtest86/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/posts/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/tags/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/tags/ubuntu/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/usb/</loc>
@@ -213,9 +246,6 @@
     <lastmod>2024-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/posts/create-ubuntu-usb/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/tags/install/</loc>
     <lastmod>2024-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/categories/</loc>

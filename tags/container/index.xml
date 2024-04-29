@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Container on Entroware Documentation</title>
+    <link>https://docs.entroware.com/tags/container/</link>
+    <description>Recent content in Container on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/tags/container/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure docker for NVIDIA acceleration</title>
+      <link>https://docs.entroware.com/posts/configure-docker-nvidia/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.entroware.com/posts/configure-docker-nvidia/</guid>
+      <description>
+        
+          
+            This guide will show you how to configure your docker environment to make the most of your NVIDIA hardware for GPU accelerated containers, using the NVIDIA Container Toolkit
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
