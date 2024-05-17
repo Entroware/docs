@@ -14,7 +14,7 @@ aliases:
 
 ### Install Option 1 - Installing Steam using the App Center
 
-Open the preinstalled `App Center` application and search for `steam`.  Then click on the menu item titled `Steam` with the Steam logo to the left similar to the image below.
+Open the preinstalled `Ubuntu Software` application and search for `steam`.  Then click on the menu item titled `Steam` with the Steam logo to the left similar to the image below.
 
 ![Search for Steam in the App Center](images/app-center-search.jpg)
 
@@ -25,9 +25,11 @@ Then click the `Install` button on the Steam application page.  The correct page
 
 ### Install Option 2 - Installing Steam using a terminal
 
+Open a terminal and enter the following command
 ```bash
 user@machine:~$ sudo snap install steam
 ```
+The steam application is now installed.
 
 ### Launch Steam
 
