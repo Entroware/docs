@@ -1,1 +1,3 @@
 User-agent: *
+Allow: /
+Sitemap: https://docs.entroware.com/sitemap.xml
