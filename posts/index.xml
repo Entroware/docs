@@ -6,7 +6,23 @@
     <description>Recent content in Posts on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Battery Best Practices</title>
+      <link>https://docs.entroware.com/posts/battery-best-practices/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.entroware.com/posts/battery-best-practices/</guid>
+      <description>
+        
+          
+            Lithium Polymer (LiPo) batteries have a natural lifespan due to electrolyte decomposition over time. Follow these best practices to make sure you can get the most out of yours.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Configure docker for NVIDIA acceleration</title>
       <link>https://docs.entroware.com/posts/configure-docker-nvidia/</link>
