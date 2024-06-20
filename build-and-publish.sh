@@ -13,6 +13,11 @@ rm -rf public
 echo -e "> ${GREEN}Mapping gh-pages to public${NC}"
 git worktree add public gh-pages
 
+echo -e "> ${GREEN}Pull gh-pages branch${NC}"
+cd public
+git pull -r
+cd ..
+
 echo -e "> ${GREEN}Building into public${NC}"
 rm -rf public/* public/.gitignore
 hugo
