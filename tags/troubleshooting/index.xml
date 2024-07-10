@@ -6,7 +6,23 @@
     <description>Recent content in Troubleshooting on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filing An Effective Support Ticket</title>
+      <link>https://docs.entroware.com/posts/filing-support-ticket/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.entroware.com/posts/filing-support-ticket/</guid>
+      <description>
+        
+          
+            A crucial part of resolving support tickets is diagnostics. Following this guide, you will be able to provide your support representative with as much detail as possible, reducing the time for a resolution or even resolve issues yourself.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Configuring Network Settings in Ubuntu Server: Basics and Troubleshooting</title>
       <link>https://docs.entroware.com/posts/ubuntu-server-network-configuration/</link>

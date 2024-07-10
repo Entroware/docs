@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ticket on Entroware Documentation</title>
+    <link>https://docs.entroware.com/tags/ticket/</link>
+    <description>Recent content in Ticket on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/tags/ticket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filing An Effective Support Ticket</title>
+      <link>https://docs.entroware.com/posts/filing-support-ticket/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.entroware.com/posts/filing-support-ticket/</guid>
+      <description>
+        
+          
+            A crucial part of resolving support tickets is diagnostics. Following this guide, you will be able to provide your support representative with as much detail as possible, reducing the time for a resolution or even resolve issues yourself.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
