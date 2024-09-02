@@ -11,6 +11,7 @@
   <head>
 <title>Create and use a Memtest86 USB Drive in Ubuntu | Entroware Documentation</title>
 <meta charset="utf-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -197,7 +198,7 @@
 <li>USB Drive: Minimum 2GB capacity recommended</li>
 <li>Memtest86 Image: Downloaded from the memtest86 website</li>
 </ol>
-<p>To download the image, go to <a href="https://www.memtest.com/download.htm">www.memtest.com/download.htm</a></p>
+<p>To download the image, go to <a href="https://www.memtest86.com/download.htm">www.memtest86.com/download.htm</a></p>
 <h4 id="uefi-systems">UEFI systems:</h4>
 <p>Download Memtest86 Free from the top of the page.
 <figure>
@@ -252,7 +253,8 @@
     </picture>
 </figure>
 </p>
-<p>Extract <em>memtest86-usb.img</em> from the archive</p>
+<h3 id="extract-memtest86-usb-disk-image">Extract Memtest86 USB disk image</h3>
+<p>Open the newly downloaded <code>memtest86-usb.zip</code> zip file and extract the <code>memtest86-usb.img</code> file from the archive.  This file this be used in the next step.</p>
 <h3 id="creating-a-bootable-memtest86-usb-drive">Creating a bootable Memtest86 USB drive</h3>
 <ol>
 <li>Open the Disks application and select your USB drive from the side menu.
@@ -359,62 +361,6 @@ From the boot menu, select the removable drive and press enter.
       
         class="image_figure image_internal image_unprocessed"
         src="images/memtest-0.png"
-      
-      
-    />
-
-    </picture>
-</figure>
-</p>
-</li>
-<li>
-<p>From the list of storage devices, find your external drive starting with 'fs', enter the label into the command line with a colon e.g. <code>fs3:</code>
-<figure>
-  <picture>
-
-    
-      
-        
-        
-        
-        
-        
-        
-    <img
-      loading="lazy"
-      decoding="async"
-      alt="Enter memtest drive"
-      
-        class="image_figure image_internal image_unprocessed"
-        src="images/memtest-1.png"
-      
-      
-    />
-
-    </picture>
-</figure>
-</p>
-</li>
-<li>
-<p>Type <code>memtest.efi</code> and press enter to launch memtest86
-<figure>
-  <picture>
-
-    
-      
-        
-        
-        
-        
-        
-        
-    <img
-      loading="lazy"
-      decoding="async"
-      alt="Launch memtest86"
-      
-        class="image_figure image_internal image_unprocessed"
-        src="images/memtest-2.png"
       
       
     />
