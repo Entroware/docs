@@ -30,14 +30,22 @@
   weight = 1
   url = "https://X.com/Entroware"
 [[social]]
+  name = "bluesky"
+  weight = 2
+  url = "https://bsky.app/profile/entroware.bsky.social"
+[[social]]
+  name = "linkedin"
+  weight = 3
+  url = "https://www.linkedin.com/company/entroware"
+[[social]]
   name = "github"
   type = "social"
-  weight = 2
+  weight = 4
   url = "https://github.com/entroware/"
 
 [[social]]
   name = "rss"
-  weight = 4
+  weight = 5
   url = "index.xml"
 
 # other supported social links
