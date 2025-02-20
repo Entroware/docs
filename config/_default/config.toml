@@ -5,7 +5,7 @@ baseurl = "https://docs.entroware.com/"  # Include trailing slash
 #copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 copyright = ""
 # canonifyurls = true
-paginate = 10
+
 theme = "hugo-clarity"
 disqusShortname = ""
 
@@ -23,3 +23,6 @@ series = "series"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+  pagerSize = 10
