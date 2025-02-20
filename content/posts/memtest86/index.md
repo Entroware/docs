@@ -30,7 +30,7 @@ Scroll down to Older Versions, under the *V4 Linux/Mac Downloads* heading, downl
 
 ### Extract Memtest86 USB disk image
 
-Open the newly downloaded `memtest86-usb.zip` zip file and extract the `memtest86-usb.img` file from the archive.  This file this be used in the next step.
+Open the newly downloaded `memtest86-usb.zip` zip file and extract the `memtest86-usb.img` file from the archive.  This file will be used in the next step.
 
 ### Creating a bootable Memtest86 USB drive
 
