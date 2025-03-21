@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepseek on Entroware Documentation</title>
+    <link>https://docs.entroware.com/tags/deepseek/</link>
+    <description>Recent content in Deepseek on Entroware Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/tags/deepseek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install GPT4ALL on Ubuntu</title>
+      <link>https://docs.entroware.com/posts/linux-gpt4all-gui/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.entroware.com/posts/linux-gpt4all-gui/</guid>
+      <description>
+        
+          
+            This article explains how to install Nomic&#39;s GPT4ALL on Ubuntu 24.04, allowing you to run powerful Large Language Models (LLMs) locally on Entroware hardware with advanced customisation options.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

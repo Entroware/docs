@@ -6,7 +6,23 @@
     <description>Recent content on Entroware Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.entroware.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install GPT4ALL on Ubuntu</title>
+      <link>https://docs.entroware.com/posts/linux-gpt4all-gui/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.entroware.com/posts/linux-gpt4all-gui/</guid>
+      <description>
+        
+          
+            This article explains how to install Nomic&#39;s GPT4ALL on Ubuntu 24.04, allowing you to run powerful Large Language Models (LLMs) locally on Entroware hardware with advanced customisation options.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Filing An Effective Support Ticket</title>
       <link>https://docs.entroware.com/posts/filing-support-ticket/</link>
