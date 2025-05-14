@@ -37,7 +37,7 @@ chmod +x gpt4all-installer-linux.run
 
 3. Start the installer.
 ```bash
-gpt4all-installer-linux.run
+./gpt4all-installer-linux.run
 ```
 
 ![Installer welcome screen](images/gpt4all-installer-1.png)
