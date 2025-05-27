@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://docs.entroware.com/</loc>
-    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/hardware/</loc>
+    <lastmod>2025-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/index/</loc>
+    <lastmod>2025-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/posts/</loc>
+    <lastmod>2025-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/speeds/</loc>
+    <lastmod>2025-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/</loc>
+    <lastmod>2025-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/tags/usb/</loc>
+    <lastmod>2025-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://docs.entroware.com/posts/usb-speed-naming/</loc>
+    <lastmod>2025-05-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/ai/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
@@ -23,9 +44,6 @@
     <loc>https://docs.entroware.com/tags/gui/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://docs.entroware.com/tags/index/</loc>
-    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://docs.entroware.com/posts/linux-gpt4all-gui/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,12 +57,6 @@
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/openai/</loc>
-    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/posts/</loc>
-    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/tags/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/ubuntu/</loc>
@@ -120,9 +132,6 @@
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/memtest86/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.entroware.com/tags/usb/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.entroware.com/tags/gaming/</loc>
