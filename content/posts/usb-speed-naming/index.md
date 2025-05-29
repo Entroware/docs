@@ -16,7 +16,7 @@ This article aims to clarify confusion surrounding USB naming conventions and op
 
 ﻿The confusion between USB port designation and their speeds primarily stems from two main factors:
 
-1) Naming Conventions: The naming conventions for USB ports do not always clearly indicate their speed capabilities, leading to potential misunderstandings. For example, at a glance you may think that *USB 3.2 Gen 1x1* is faster than *USB 3.1* or *USB 3.1 Gen 2* however it is actually half the speed.
+1) Naming Conventions: The naming conventions for USB ports do not always clearly indicate their speed capabilities, leading to potential misunderstandings. For example, at a glance you may think that *USB 3.2 Gen 1x1* is faster than *USB 3.1 Gen 2* however it is actually half the speed.
 
 
 2) Marketing Terminology: Marketing often uses vague terms like "SuperSpeed" and "SuperSpeedPlus", which can be unclear about the actual speed.
@@ -31,13 +31,13 @@ Here we have tables that show the previously used naming designations and the ne
 | Previous Designation | New Designation |
 | -------------------- | --------------- |
 | USB 3.0              | USB 5Gbps       |
+| USB 3.1              | USB 5Gbps       |
 | USB 3.1 Gen 1        | USB 5Gbps       |
-| USB 3.2 Gen 1x1      | USB 5Gbps       |
-| USB 3.1              | USB 10Gbps      |
 | USB 3.1 Gen 2        | USB 10Gbps      |
+| USB 3.2              | USB 5Gbps       |
+| USB 3.2 Gen 1x1      | USB 5Gbps       |
+| USB 3.2 Gen 1×2      | USB 10Gbps      |
 | USB 3.2 Gen 2x1      | USB 10Gbps      |
-| USB 3.2              | USB 20Gbps      |
-| USB 3.2 Gen 1×2      | USB 20Gbps      |
 | USB 3.2 Gen 2x2      | USB 20Gbps      |
 
 
@@ -49,7 +49,7 @@ Here we have tables that show the previously used naming designations and the ne
 | USB4 Gen 2x2         | USB 20Gbps      |
 | USB4 Gen 3x1         | USB 20Gbps      |
 | USB4 Gen 3x2         | USB 40Gbps      |
-
+| USB4 Gen 4x2         | USB 80Gbps      |
 
 
 
